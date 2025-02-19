@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2812a5; /* Set default background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #f0c27b, #4b1248); /* Adding a gradient background */
+}
+
+.container {
+    background-color:  rgba(82, 131, 8, 0.432);
+    padding: 20px;
+    border: 5px solid #000; /* Thick black border around the container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-style: italic; /* Italic font for the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text shadow */
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #000; /* Thick black border around the input */
+    border-radius: 4px;
+    font-size: 16px;
+    font-style: italic; /* Italic font for the input text */
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: 3px solid #000; /* Thick black border around the button */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: italic; /* Italic font for the button text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Adding text shadow to button text */
+}
+
+button:hover {
+    background-color: #45a049;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Enhanced text shadow on hover */
+}
+
+#clearListBtn {
+    background-color: #f44336;
+}
+
+#clearListBtn:hover {
+    background-color: #e53935;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Enhanced text shadow on hover for clear button */
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 5px 0;
+    border: 3px solid #000; /* Thick black border around list items */
+    border-radius: 4px;
+    cursor: pointer;
+    font-style: italic; /* Italic font for movie list items */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Adding text shadow to list items */
+}
+
+li:hover {
+    background-color: #e0e0e0;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Enhanced text shadow on hover */
+}
